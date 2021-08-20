@@ -37,6 +37,7 @@ hs_err_pid*
 .idea/sonarlint/
 
 # Generated files
+.idea
 .idea/**/contentModel.xml
 .idea/**/jarRepositories.xml
 .idea/**/uiDesigner.xml
