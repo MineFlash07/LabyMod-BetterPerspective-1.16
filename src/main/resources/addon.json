@@ -1,6 +1,11 @@
 {
-  "name": "Example Addon",
+  "name": "Better Perspective",
   "uuid": "%uuid%",
-  "mainClass": "com.example.addon.ExampleAddon",
-  "transformerClass": "com.example.addon.ExampleAddonTransformer"
+  "mainClass": "de.raik.betterperspective.BetterPerspectiveAddon",
+  "version": 1,
+  "author": "MineFlash07",
+  "description": "Navigate freely around you in the third person view without changing the movement direction.",
+  "category": 2,
+  "icon": "https://dl.labymod.net/latest/addons/588d5717-a7f6-4181-9dc8-9980b0a58c0e/icon.png",
+  "transformerClass": "de.raik.betterperspective.mixin.BetterPerspectiveTransformer"
 }
