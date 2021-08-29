@@ -9,6 +9,7 @@
   },
   "client": [
     "MixinMouseHelper",
-    "MixinActiveRenderInfo"
+    "MixinActiveRenderInfo",
+    "MixinMinecraft"
   ]
 }

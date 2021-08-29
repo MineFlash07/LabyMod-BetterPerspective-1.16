@@ -30,7 +30,7 @@ public class MixinActiveRenderInfo {
 
     /**
      * Injector changing the yaw and pitch when moving the position
-     * to make sage adjustments
+     * to make safe adjustments
      */
     @Inject(method = "update(Lnet/minecraft/world/IBlockReader;Lnet/minecraft/entity/Entity;ZZF)V", at = @At(
             value = "INVOKE",
